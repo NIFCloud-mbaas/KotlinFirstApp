@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         sv = findViewById<View>(R.id.txtScore) as TextView
 
         /********* mBaaS初期化  */
-        NCMB.initialize(applicationContext, "YOUR_APPLICATION_KEY", "YOUR_CLIENT_KEY")
+        NCMB.initialize(this, "YOUR_APPLICATION_KEY", "YOUR_CLIENT_KEY")
     }
 
     /********
