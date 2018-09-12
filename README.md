@@ -49,7 +49,7 @@
 
 ![AndroidStudio](/readme-img/icon_androidstudio.png)
 
-* `MainActivity.java`の`onCreate`を編集します
+* `MainActivity.kt`の`onCreate`を編集します
 * 先程[ニフクラ mobile backend](https://mbaas.nifcloud.com/)のダッシュボード上で確認したAPIキーを貼り付けます
 
 ![問題0-1](/readme-img/0-1.png)
@@ -58,7 +58,7 @@
  * このとき、ダブルクォーテーション（`"`）を消さないように注意してください！
 
 ## __【問題１】__：名前とスコアの保存をしてみよう！
-`MainActivity.java`を開きます。下図の__`saveScore`__メソッドを編集し、引数の__`name`__（アラートで入力した名前）と__`score`__（連打ゲームでタップした回数）の値をmBaaSに保存する処理をコーディングしてください
+`MainActivity.kt`を開きます。下図の__`saveScore`__メソッドを編集し、引数の__`name`__（アラートで入力した名前）と__`score`__（連打ゲームでタップした回数）の値をmBaaSに保存する処理をコーディングしてください
 
 ![問題1-1](/readme-img/1-1.png)
 
@@ -78,14 +78,14 @@ __【作業1-1】__それぞれ該当する箇所に以下の処理を追記し�
 
 * 保存に失敗した場合の処理を行う箇所に追記
 
-```java
+```kotlin
 // 保存に失敗した場合の処理
   Log.e("NCMB", "保存に失敗しました。エラー:" + e.getMessage());
 ```
 
 * 保存に成功した場合の処理を行う箇所に追記
 
-```java
+```kotlin
 //保存が成功した場合の処理
   Log.i("NCMB", "保存に成功しました。");
 ```
@@ -108,7 +108,7 @@ __【作業1-2】__エミュレーターで実行、「Start」ボタンを押�
 
 
 ## __【問題２】__：ランキングを表示しよう！
-`RankingActivity.java`を開きます。下図の`checkRanking`メソッドを編集し、データストアの`GameScore`クラスに保存した`name`と`score`のデータを`score`の降順（スコアの高い順）で検索・取得する処理をコーディングしてください
+`RankingActivity.kt`を開きます。下図の`checkRanking`メソッドを編集し、データストアの`GameScore`クラスに保存した`name`と`score`のデータを`score`の降順（スコアの高い順）で検索・取得する処理をコーディングしてください
 
 ![問題2-1](/readme-img/2-1.png)
 
@@ -127,14 +127,14 @@ __【作業2-1】__該当する箇所に以下の処理を追記して、実行�
 
 * 検索に失敗した場合の処理を行う箇所に追記
 
-```java
+```kotlin
 // 検索に失敗した場合の処理
 Log.e("NCMB", "検索に失敗しました。エラー:" + e.getMessage());
 ```
 
 * 検索に成功した場合の処理を行う箇所に追記
 
-```java
+```kotlin
 // 検索に成功した場合の処理
 Log.i("NCMB", "検索に成功しました。");
 ```
@@ -154,7 +154,7 @@ __【作業2-3】__検索に成功したら、該当する箇所に以下の処�
 
 * 検索に成功した場合の処理を行う箇所に追記
 
-```java
+```kotlin
   //ListViewオブジェクトの取得
   val lv = findViewById<View>(R.id.lstRanking) as ListView
   // ループカウンタ
