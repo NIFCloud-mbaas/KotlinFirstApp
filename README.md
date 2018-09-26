@@ -106,7 +106,7 @@ __【作業1-2】__エミュレーターで実行、「Start」ボタンを押�
 
 ▼答えはこちら▼
 
-[__【問題１】解答__](https://github.com/ncmbadmin/KotlinFirstAppAnswer/blob/AnswerProject/Answer1.md)
+[__【問題１】解答__](https://github.com/NIFCloud-mbaas/KotlinFirstApp/blob/AnswerProject/Answer1.md)
 
 
 ## __【問題２】__：ランキングを表示しよう！
@@ -185,7 +185,7 @@ __【作業2-4】__エミュレーターで実行、「ランキングを見る�
 
 ▼答えはこちら▼
 
-[__【問題２】解答__](https://github.com/ncmbadmin/KotlinFirstAppAnswer/blob/AnswerProject/Answer2.md)
+[__【問題２】解答__](https://github.com/NIFCloud-mbaas/KotlinFirstApp/blob/AnswerProject/Answer2.md)
 
 ## 参考
 
@@ -193,6 +193,6 @@ __【作業2-4】__エミュレーターで実行、「ランキングを見る�
 
 ▼完成版プロジェクト▼
 
-[__「【完成版】連打ゲーム」__](https://github.com/ncmbadmin/KotlinFirstAppAnswer/archive/master.zip)
+[__「【完成版】連打ゲーム」__](https://github.com/NIFCloud-mbaas/KotlinFirstApp/archive/AnswerProject.zip)
 
 * APIキーを設定してご利用ください
