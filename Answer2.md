@@ -18,6 +18,9 @@
 ```java
 import com.nifcloud.mbaas.core.NCMBObject
 import com.nifcloud.mbaas.core.NCMBQuery
+import android.util.Log
+import android.widget.ArrayAdapter
+import android.widget.ListView
 ```
 
 * 模範解答は以下です
