@@ -13,6 +13,13 @@
 
 ![Android](/readme-img/icon_androidstudio.png)
 
+* 最初に、ファイルの先頭に利用するライブラリを追記します
+
+```java
+import com.nifcloud.mbaas.core.NCMBObject
+import com.nifcloud.mbaas.core.NCMBQuery
+```
+
 * 模範解答は以下です
 
 ```java
