@@ -17,6 +17,7 @@
 * 最初に、ファイルの先頭に利用するライブラリを追記します
 ```java
 import com.nifcloud.mbaas.core.NCMBObject
+import android.util.Log
 ```
 
 * 模範解答は以下です
